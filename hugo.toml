@@ -2,3 +2,9 @@ baseURL = 'https://www.playpatch.tech/'
 languageCode = 'en-us'
 title = 'Play Patch'
 theme = 'ananke'
+
+[build]
+  writeStats = true
+
+[security.funcs]
+  getenv = ["^HUGO_"]
